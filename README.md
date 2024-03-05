@@ -1,15 +1,15 @@
-## Videos with MAX and VIZZIE
+## Video with VIZZIE and Jitter
 
-VIZZIE is a collection of modules that allow you to work with video content. It is an integral part of MAX, so you can also use it together with all other objects and modules. 
+MAX can also work with videos. For this purpose it provides a new family of objects called *Jitter*. You can identify them as their names are starting with `jit. ...`. For an easier learning experience they have also been packaged into modules, named VIZZIE. Both Jitter objects and VIZZIE modules are an integral part of MAX, so you can combine them with MAX objects to control everything and MSP or BEAP modules to add sound. 
 
-This session is designed using four introductory videos from the Cycling'74 website. You can access them by clicking on the title of each of the sections one to four below. In most cases you can also just follow the screenshots and instructions to patch the projects together. Furthermore, you find some patches ready for download (cloning) on the top level of the repository.
+This session is designed around the four introductory videos from the Cycling'74 website. You can access the videos by clicking on the title of each of the sections below. In most cases, you just follow the screenshots and instructions to patch the projects together. Some of the patches introduced are ready for download in the folder `Patches` in this repository.
 
 Happy Patching!
 
 
 
 ### 1. [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
-This is a first simple patch with a video source and some effects. In order to easily access the modules, click on the ```v``` and then find the module by category or typing its name in the Filter field on top.
+This is a first simple patch with a video source and some effects. In order to easily access the modules, click on the ```v``` at the left panel of the Patcher window and then find the module by category or type its name in the Search on top.
 
 ![Vizzie Startscreen](media/221205_Vizzie_Obj.png)
 
