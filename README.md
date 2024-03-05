@@ -164,9 +164,9 @@ This is no right/license to use for a work by itself. Many countries allow the u
 When you search images on Google, enter you search terms, select `Images` and then click on `Tools`, select 
 `Usage Rights`.
 
-When on Youtube, enter your search terms, open the `Filters` section and find the license link. [This video](https://youtu.be/b7UZELEunow?feature=shared) shows you how to find content under the Creative Commons license in more detail.
+When on Youtube, enter your search terms, open the `Filters` section and find the license link. This video by the [Langara Library CC-BY](https://youtu.be/b7UZELEunow?feature=shared) shows you how to find content under the Creative Commons license in more detail.
 
-When on Vimeo, enter your search terms, open the `Filters` section and find the license link. [This video](https://youtu.be/lID2eDz4j0g?feature=shared) shows you how to find content under the Creative Commons license in more detail.
+When on Vimeo, enter your search terms, open the `Filters` section and find the license link. This video by the [Langara Library CC-BY](https://youtu.be/lID2eDz4j0g?feature=shared) shows you how to find content under the Creative Commons license in more detail.
 
 
 ## Some things to try out
