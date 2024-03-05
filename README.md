@@ -109,7 +109,7 @@ Attention: When you have connected the ANALYSR module to the PRIMR, it will imme
 
 ## 4. [Recombinant Patching]( https://cycling74.com/tutorials/vizzie-visions-episode-4-recombinant-patching-made-easy)
 
-Some Vizzie objects are only available as Abstractions, they look like normal objects and are not shown on the Vizzie menu. They are implemented as ordinary objects, and are accessible by typing ```n``` and then entering their name. Each of these effects has a Control Panel that can be opened by double-clicking on the object. 
+Some Vizzie effects are only available as Abstractions (separate patches), they look like normal objects and are not shown on the Vizzie menu. They are implemented as ordinary objects, and are accessible by creating an empty object shell with `n` and then entering their name. You recognize them by the `vz. ...` at the beginning of their name. Each of these effects has a Control Panel that can be opened by double-clicking on the object. 
 
 ![Control Panel Abstract Objects](media/221205_Vid4_ObjectOptions.png)
 
