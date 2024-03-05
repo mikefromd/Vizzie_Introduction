@@ -135,6 +135,40 @@ The second example includes one effect. First, the signal is routed from Video I
 - The abstractions are created by making a new object and then typing the name of the abstraction, see explanations above.
 
 
+## Some Background Knowledge
+
+### Copyright, Creative Commons, Public Domain, and Fair Use in a Nutshell
+
+#### Copyright
+
+All works (books, music, videos) are protected by law, and another person can only use it if agreed by the creator of said work. When you buy a book, you typically find some limitations on what you can do with it at its beginning. If there is no reference to any rights, the work may still be protected by copyright laws, so you need to get the approval if you want to use it.
+
+
+#### Public Domain
+
+Works in the Public Domain can be used by whomever as they like. Many of the classics (Shakespeare) are in the Public Domain. [Here](https://en.wikipedia.org/wiki/Public_domain) you find more about it.
+
+
+#### [Creative Commons](https://creativecommons.org/share-your-work/cclicenses/)
+
+Under the Creative Commons License, the creator keeps the rights (control) on his work, but makes it easier for others to use his work without the need to get directly in touch with him/her. There are different types of sublicenses under this licensing system. The simplest license is a CC-BY license where the person using someone elses work only has to mention/credit/appreciate the original creator of the work. It is important that the creator publishes the proper license he/she wants to grant to others.
+
+
+#### Fair Use
+
+This is no right/license to use for a work by itself. Many countries allow the use of copyrighted work in very restricted ways for educational purposes, that's called Fair Use. [This](https://www.ipd.gov.hk/filemanager/ipd/common/copyright/FAQs-2007-copyright-exemptions-en.pdf) documents describes the situation in Hong Kong (2007). Q3 tries to describe the limits of a Fair Use, copyrighgted materials cannot be used for commercial purposes, furthermore it should be clearly restricted in its quality and quantity to be used for education only.
+
+
+#### How to find materials you can use?
+
+When you search images on Google, enter you search terms, select `Images` and then click on `Tools`, select 
+`Usage Rights`.
+
+When on Youtube, enter your search terms, open the `Filters` section and find the license link. [This video](https://youtu.be/b7UZELEunow?feature=shared) shows you how to find content under the Creative Commons license in more detail.
+
+When on Vimeo, enter your search terms, open the `Filters` section and find the license link. [This video](https://youtu.be/lID2eDz4j0g?feature=shared) shows you how to find content under the Creative Commons license in more detail.
+
+
 ## Some things to try out
 
 ### 1. Use Your Webcam With VIZZIE
