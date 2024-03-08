@@ -8,14 +8,14 @@ Happy Patching!
 
 
 
-## 1. [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
+## Session 1: [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
 This is a first simple patch with a video source and some effects. In order to easily access the modules, click on the ```v``` at the left panel of the Patcher window and then find the module by category or type its name in the Search on top.
 
 ![Vizzie Startscreen](media/221205_Vizzie_Obj.png)
 
 The following lists allow you to rebuild the patches in order. Each step is a running patch, try it out to make sure that you have patched everything correctly. Further hints on what to look for can be found in the video.
 
-### 1. Simple Player
+### 1.1. Simple Player
 1. INPUT/PLAYR - Module allows to change the speed, select a part of the video to be played and set a loop.
 2. OUTPUT/PROJECTR
 
@@ -25,7 +25,7 @@ You find it also on the left side of the screen.
 ![Find Videos in MAX](media/221205_MAX_FindVideos.png)
 
 
-### 2. Add Effects
+### 1.2. Add Effects
 1. EFFECT/BRCOSR
    Allows to modify video’s brightness, contrast and saturation
 2. EFFECTS/DELAYR - Delay, apply feedback to the delay and crossfade/mix original and delayed signal.
@@ -33,14 +33,20 @@ You find it also on the left side of the screen.
 ![Patch with basic effect player](media/221205_Basic_2.png)
 
 
-### 3. Add Randomness to the Effects
+### 1.3. Add Randomness to the Effects
 
 1. GENERATE/ATTRACTR
 
 ![Final Project](media/221205_Basic_Full.png)
 
 
-## 2. [Vizzie Visions: Part 2, BEAP Modules](https://youtu.be/xcs-kKaN6QQ)
+## Session 2: Video Effects, Remixes with BEAP, Recording, and Even More VIZZIE
+
+*This session is taking inspiration from*
+
+- [Vizzie Visions: Part 2, BEAP Modules](https://youtu.be/xcs-kKaN6QQ)
+- [Max MSP Tutorials for Beginners: Vizzie #4 Effects Tour](https://soundand.design/vizzie-4-effects-tour-b39b3cd4e29)
+
 
 This patch also demonstrates the different ranges for the various signals and signal amplitudes inside MAX. Often they are derived from extisting standards in the analog world. All values are digitized inside the computer. 
 
@@ -49,9 +55,11 @@ This patch also demonstrates the different ranges for the various signals and si
 - BEAP “Control Voltage” CV -5V .. 5V, used for analog modular synthezisers
 - Ramp (special signal here: 0V .. 5V)
 
+### 2.1 A more complex patch, step by step
+
 The following lists allow you to rebuild the patches in order. Each step is a running patch, try it out to make sure that you have patched everything correctly. Further hints on what to look for can be found in the video.
 
-### 1. Basic Video Patch
+#### 2.1.1 Basic Video Patch
 
 1. INPUT/PLAYR
 2. TRANSFORM/PIXL8R
@@ -60,7 +68,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 
 ![Project Part 1](media/221205_P2_basic.png)
 
-### 2. BEAP’s LFO controls the PIXL8R
+#### 2.1.2. BEAP’s LFO controls the PIXL8R
 
 1. In BEAP get LFO/CV LFO
 2. Enable Audio with the ON button on the lower right of the patch window.
@@ -69,7 +77,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 
 ![Project Part 2](media/221205_P2_Part23.png)
 
-### 3. Add audio source
+#### 2.1.3. Add audio source
 
 1. Add audio player
 2. add new object (N) live.gain~
@@ -78,7 +86,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 
 ![Project Part 3](media/221205_P2_part24.png)
 
-### 4. Use ATTRACTR to control the LFO
+#### 2.1.4. Use ATTRACTR to control the LFO
 
 1. Reconnect the CV LFO from step 2
 2. GENERATE/ATTRACTR
@@ -87,7 +95,7 @@ The following lists allow you to rebuild the patches in order. Each step is a ru
 ![Full Project](media/221205_Demo_Debug_Audio.png)
 
 
-## 3. [Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
+### 2.2. [Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
 
 Launch the patch “221205_Vid31”.
 
@@ -135,6 +143,21 @@ The second example includes one effect. First, the signal is routed from Video I
 - The abstractions are created by making a new object and then typing the name of the abstraction, see explanations above.
 
 
+## Session 3: Under the Hood - Jitter
+
+/Placeholder for content
+
+
+
+## Session 4: Some things to try out
+
+### 1. Use Your Webcam With VIZZIE
+
+![VideoMix](media/221205_Vid5_Project.png)
+
+This project is a remix of project 4, we replace the PLAYR module by the GRABBR module. This object gets a feed from your webcam and a second video signal from the PLAYR. An effect (Kaleidoscope) is applied to the signal from the player. We are using a fader (CONTROL/FADR) to mix two video signals. As output you can see preview the signal “live” on a VIEWR module, you can also record your video with the RECORDR module.
+
+
 ## Some Background Knowledge
 
 ### Copyright, Creative Commons, Public Domain, and Fair Use in a Nutshell
@@ -169,10 +192,7 @@ When on Youtube, enter your search terms, open the `Filters` section and find th
 When on Vimeo, enter your search terms, open the `Filters` section and find the license link. This video by the [Langara Library CC-BY](https://youtu.be/lID2eDz4j0g?feature=shared) shows you how to find content under the Creative Commons license in more detail.
 
 
-## Some things to try out
 
-### 1. Use Your Webcam With VIZZIE
+## Source Files in Compressed Format for some more patches.
 
-![VideoMix](media/221205_Vid5_Project.png)
-
-This project is a remix of project 4, we replace the PLAYR module by the GRABBR module. This object gets a feed from your webcam and a second video signal from the PLAYR. An effect (Kaleidoscope) is applied to the signal from the player. We are using a fader (CONTROL/FADR) to mix two video signals. As output you can see preview the signal “live” on a VIEWR module, you can also record your video with the RECORDR module.
+[This Markdown File](patches/patches.md) contains more patches in a compressed format. Just open a new patcher on MAX, then select the whole text of the patch you want to copy and then copy it. When your mouse hovers over your empty patch, right click your mouse and `Paste` the content on your patch. After a short while, the patch will become visible. The first thing to do may be saving it, then start to remix it. Please note that the patch only contains the code, you will need to add the media files by yourself.
