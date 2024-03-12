@@ -144,7 +144,7 @@ These Vizzie abstractions are also helpful, if you want to use many effects with
 The patch [221206_Vid4.maxpat](https://github.com/mikefromd/Vizzie_Introduction/blob/main/patches/221206_Vid4.maxpat)can be found in the repository. You can also copy and paste the compressed file from below into an empty new patcher.
 
 <details>
-  <summary>Compressed File</summary>
+  <summary>Compressed Copy</summary>
 
 <pre><code>
 ----------begin_max5_patcher----------
@@ -213,14 +213,58 @@ The second example includes one effect. First, the signal is routed from Video I
 This project is actually a remix of project 3, we replace the `PLAYR` module by the `GRABBR` module. This object gets a feed from your webcam and we add a second video signal from a `PLAYR`. An effect (Kaleidoscope) is applied to the signal from the player. We are using a fader (CONTROL/`FADR`) to mix the two video signals. You can preview the signal “live” on a `VIEWR` module, record it with the `RECORDR` module.
 
 
+### 2.5. Mixing and applying effects to more than one video
+
+![`TESSEL8R in action](media/2024-03-12_13-07-03.png)
+
+Before you start, find some free to use photo and video clips. You may have a look at [Pexels](https://www.pexels.com/videos/), this website offers free to use photos and videos. Whenever you have a choice, download the media files with a smaller resolution. Then save your media files in a folder on your desktop for easier access, maybe in a subfolder to your MAX patches collection.
+
+This project takes inspiration from [SMC Video Synthesis Workshop 3/4: Intro to Vizzie in Max/MSP](https://youtu.be/Qe1JSHvmh8E?feature=shared)
+
+Use other effects, maybe try again the `PATCHROUTR` to generate your own unique video. Here is the starter code as a Compressed Copy
+
+<details>
+  <summary>Compressed Copy</summary>
+
+<pre><code>
+----------begin_max5_patcher----------
+978.3oc6Y18aZCCD.+Y3uBqzW6GwIgDXuuIUMsW1l1CsBUYRN.2ZhibLT5l5
++6yejvGCRZJPQqazGhE1Wxk6te2c1o+pcKmA74PtC5CnaQsZ8q1sZYlROQqh
+e2xYBYdLijaDyYPFQFOFDNmaWjjlxkDIkmZV9ryPeEh4hDzOt9lat9inYzDf
+iN6rR4mQDojIfQXgQxEOpYT3wYzb5.JiJeRKAtXE9vg4fz9Z5do645Kn9EKx
+3wO.IIBxn7XAmwzh4VrVLiF+fbrfOcz3UmGRICXv3MuA6By1bAqVxo+DVc1A
+ilvSVeFkEo7NqLiwgQSGcmxbKrgH+tZqHJrmdvG2QOfC5shUsvIM6mWV3mtT
+EHTOrR2U5zIzTFHMwE+hIoIlahO39Kv3UjjOUVJpqdxma2Ve47CVT+GpfGhK
+PS3oToZzF2ooYSkUD80g6EOvLAWxkOkAKVNiNm8OAYfeMjA1Mx.CAdFBIv0L
+3GVEZXbh0AF3s.F8Nlfw2g7bfQj.5I9zRtXnhP9BIMgvHWvnO.HX3PkOHuBT
+QZdFc++lVrQJsUaM.m6ox6FwtSBykSEpI6WMV0Aa3nNA95Auvt1BNcqfpJ82
+0AVQaAr5rcvBuCfkjOZDCbpx1ooxZMXLNZk7GufxqKM2WJIwcArQDJWiDD2Y
+CpqFS1e67kSf9LgAzDddLOCrIKE0VmPFApLIVhxzqHw4Ay8JtE2+TpyNl5z0
+yTP120.T3t1TGe2JRcJ730k4zYSZKx4HBTea5fDplgVqIspZLR4yISTNejbL
+fxnPLTUE4BIOUQdOqHWfUddEUjqBqJ820wUgaxU9GUtRJ.kHW8HQjgH0ty+b
+qnmvmcEeh5X5jGVzO2s9hRkt6WYUodNuuZychl10hQtAKoo2nVb3iZOtOoNq
+wE1FaVLZBcNHp.eBTKdBd1U3Aq9yTEx1QqrUVk3iwaWG7zcS3wCeLgmuq18y
+Ze9pLF4IPbEiqpMUEDokQbq2oMZWGGcNxoVVpGdkio5GXIoNUcLUiK+UdFUu
+sCRd+sARmNw1A.jJ1c8aBHgee.Rmnn8lhBe6pFE9xPjQWNLZ5e9+ow79pmec
+xJWsym3R6s7qxgV9Jm.4RZ5B551kMXQdn9akdapl7ZfhJea1OEgahlVWnkvw
+QP081tpw6kpiZZbDumtW+FnnnCPXrItR+Cfd50TG2daPMID06.nnvl.gaFhr
+0RHYYy.QdgzFcn5GcOWrXy2NppV1eZ9lRNBP2bvJuoZqCQnpUJUEJMmNPUMa
+dXfi8VUUkEoSoE7tx5ZqaFn50oKVlmQrFhokX6ma+avKh9Yr
+-----------end_max5_patcher-----------
+</code></pre>
+
+</details>
+
 ## Session 3: Under the Hood - Jitter
 
-/Placeholder for content
+**Under construction**
+In this section you will get to know Jitter matrices. They are the foundation for working with video files. They allow to save, resize, select, manipulate and mix media content. But matrices can also be used to draw and write "on screen", similar on what you can do with Turtle graphics in Python. The section will cover the basics and show simple examples for each application mentioned before.
 
 
-## Session 4: Some things to try out
+## Session 4: Some things to try out - Bring MAX, MSP and Jitter together
 
-/Placeholder for content
+**Under construction**
+Here will be posted several ideas on what you can do with all three basic components of MAX together. Some introduction and starter patches will be provided to start with, then you can remix everything. Recording encouraged!
 
 
 ## Some Background Knowledge
@@ -258,6 +302,6 @@ When on Vimeo, enter your search terms, open the `Filters` section and find the 
 
 
 
-## Source Files in Compressed Format for some more patches.
+## NEW: Source Files in Compressed Copy for some more patches.
 
-[This Markdown File](patches/patches.md) contains more patches in a compressed format. Just open a new patcher on MAX, then select the whole text of the patch you want to copy and then copy it. When your mouse hovers over your empty patch, right-click your mouse and `Paste` the content on your patch. After a short while, the patch will become visible. The first thing to do may be saving it, then start to remix it. Please note that the patch only contains the code, you will need to add the media files by yourself.
+Some patches here are provided as Compressed Copy. Just open a new patcher on MAX, then click on the Copy icon at the left top of the panel. Then, when your mouse hovers over your empty patch, right-click your mouse and `Paste` the content on your patch. After a short while, the patch will become visible. The first thing to do may be saving it, then start to remix it. Please note that the patch only contains the code, you will need to add the media files by yourself.
