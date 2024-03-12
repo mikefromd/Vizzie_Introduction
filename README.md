@@ -7,9 +7,16 @@ These sessions are designed around the four introductory videos from the Cycling
 Happy Patching!
 
 
-## Session 1: [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
+[Session 1](#session 1-a-brief-introduction-to-vizzie)
 
-This is a first simple patch with a video source and some effects. In order to easily access the modules, click `v` at the left panel of the Patcher window and then find the module by category or type its name in the Search on top.
+[Session 2](#session 2:-video-effects,-remixes-with-beap,-recording,-and-even-more-vizzie)
+
+
+## [Session 1 A Brief Introduction to Vizzie]
+
+The session is derived of the video [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
+
+First, we create a simple patch with a video source and some effects. In order to easily access the modules, click `v` at the left panel of the Patcher window and then find the module by category or type its name in the Search on top.
 
 ![Vizzie Startscreen](media/221205_Vizzie_Obj.png)
 
@@ -40,7 +47,7 @@ You find it also on the left side of the screen.
 ![Final Project](media/221205_Basic_Full.png)
 
 
-## Session 2: Video Effects, Remixes with BEAP, Recording, and Even More VIZZIE
+## Session 2: Video Effects, Remixes with BEAP, Recording, and Even More Vizzie
 
 *This session is taking inspiration from*
 
