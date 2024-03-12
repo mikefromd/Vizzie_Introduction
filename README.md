@@ -145,7 +145,7 @@ The patch [221206_Vid4.maxpat](https://github.com/mikefromd/Vizzie_Introduction/
 
 <details>
   <summary>Compressed File</summary>
-```
+
 <pre><code>
 ----------begin_max5_patcher----------
 756.3oc6W0zbaBCE7L7qPC9pqq4S6za8POj6cxgjoSFAnXqXYIFgvgjL4+dk
@@ -167,7 +167,7 @@ KP9uCnFmBXQwNDuzjsFCY2lGY78Mx7jdRMOpO8jGGor9axW6k5A4RmPgzFTe
 VMoWUcRy+BwS44xoUXyIpjUmqxpW1ISYEVV.aJDcCO22b+caZa8q
 -----------end_max5_patcher-----------
 </code></pre>
-```
+
 </details>
 
 This is an example for such an abstraction.
