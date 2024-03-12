@@ -7,12 +7,7 @@ These sessions are designed around the four introductory videos from the Cycling
 Happy Patching!
 
 
-[Session 1](#session 1-a-brief-introduction-to-vizzie)
-
-[Session 2](#session 2:-video-effects,-remixes-with-beap,-recording,-and-even-more-vizzie)
-
-
-## [Session 1 A Brief Introduction to Vizzie]
+## Session 1: A Brief Introduction to Vizzie
 
 The session is derived of the video [A Brief Introduction to Vizzie](https://youtu.be/59sFC22NVRA)
 
