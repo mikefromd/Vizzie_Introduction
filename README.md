@@ -259,6 +259,55 @@ dXfi8VUUkEoSoE7tx5ZqaFn50oKVlmQrFhokX6ma+avKh9Yr
 
 ## Session 3: Under the Hood - Jitter
 
+### Basic concept of Jitter
+
+Jitter operates with matrices. They can be of many dimensions (Ex. x, y), number of planes (Ex. 4,ARGB) or data type (Ex. char -> 0..255). The object declaration of a matrix we can use for a colour video with ARGB values, 320 x 240 pixels is as follows:
+
+`jit.matrix 4 char 320 240`
+
+Here, we have 
+
+- four planes (three of them containing the RGB colour coding, the forth a parameter called alpha value determining the transparency or opacity of the colour)
+- char is a data type using whole numbers in the range from 0 to 255 (8bit, 1 Byte)
+- 320 x 240 is the number of pixels horizontally x vertically being used.
+
+The attached basic patch contains a colour random generator and a black and white pixel controller that allow you to explore Jitter. You can change each element of the matrix by addressing it with its index, (0,0) is the first element on the left of the first line. You need to *bang* the patch for changes to become effective. The patch is also available as Compressed Copy below.
+
+
+![Two basic patches with Jitter](media/2024-03-19_13-02-21.png)
+
+<details>
+  <summary>Compressed Copy</summary>
+
+<pre><code>
+----------begin_max5_patcher----------
+978.3oc0X00aaBCE84jeEVn9XZksALISSSZ+B1a6kooJGhaKofAAllzU0+6y
+ePZIqjDyWoYOTRiiMm645683C7xzINKS2xJb.eA7KvjIuLcxD8PpAlT88INI
+zsgwzB8zbBSSRXbgyLyuIXaE5w+wx0rPA3qqiD2DxhiWFmF9321MMdYRZoHl
+Iz2DX0nYTQ3CQ76uMWtTSPDfVbCbFvCOW8AxGp9.KuB9c0hhVowKc45q8v0t
++Q7c2djZrWmNUcY1.RqrMQ7UoaZOo7lSzjBYEoPmUR0i8Jru+M9y.99XanE7
++i8JIYTbBCsfStyGLNkvJJn2y9.mBiYz7lIA5HjHvTogzguqulD3ZjvbaDOm
+wLKvwoQ9QZje3AbO641qPPzJDnfZT6P6OdidM211G+PjpByD+FEgCF+iu91O
+owkrVyABFWaOXwQ4vv02Wqut4HFeDIXhqNJQDSZGahY3w5Ij3caBUjGI2jOP
+GB9MEfhm4g06JGOEgz3MQqDO.PPXqEFv9llGrNaDzUgAbvfILbHZlES4Lv0n
+tRQLVSNyYScghdiNEKXB0oufqvfqbAOQk+W6oKgXNoB6YT7QckunAiub1F4c
+7i6nzGUVF.P.rqrbgorsqbDsnQN51ENVlrjk2ZYn.e81julAUlKNNOjJOKo7
+6alOuc9bFMmlvDr7aYb5xXVc86dqD0QtRV.GRt5cQyUyAhCEWwmEttm8+cHl
+mtQ+qyaLE3UMp7Pn8l0cobAWFo5662yinwNGQgFqSSttDyQxF8ZzQyWwQEB8
+ov696sot67PcV.BqEP2QC2KgUOC2rqDbsUWD8G8pUwUGRtKKEhTdqE57p0yX
+jzUWObd4f0PKNOsKMK0qpr3oQELfGH7AZNXNXd6srYZilaLJCImtoxBCaAWF
+tQg0Z.PFaXnffdxMxn4E8nJEtVoT31EkBhOolqc7hpm1izMkhSnI3eoJIXdz
+E+48VSv6yVSvT.CPFQAWfaWeNNjuesWvQuUEN8qbSuJYsE+eeao5XTM99Yjh
+zx7vcQPEDf2CxUrBQDmJhj0CuOG0SSVaRo4qjVQN3tfsH6YAxnlA1sW.aCk8
+aFXXu.Firmx8BH0KH6r.j5IWNc4yffjUTREN39hjmsHg5KRXaQpuYOqnDYLp
+4sBYuOM8EbyHi6WedfMPCGf8UqZ+BFirK16hhidiQsaa1FGVjsgyAiQoqMTl
+b55IisDZV1Sr7hpUqwTZIacZ9aOhtizVi4qD8WyYOEsa9ZqmNzboUKgzmUYt
+wa9VhwtnSRpDXdYTE1R1JgTa2S4iuHqxQs1U3zWm9W.P.39r
+-----------end_max5_patcher-----------
+</code></pre>
+
+</details>
+
 In this session I encourage you to try out the examples of previous sessions, have a look at the documentation and get a better grip on Jitter, MSP and MAX.
 
 The best way to explore is to check out the tutorials inside MAX. You can access them by first clicking on the `File Browser` icon on the left side of the MAX window and then click on the `74` item.
