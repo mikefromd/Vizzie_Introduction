@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 5,
+			"minor" : 6,
 			"revision" : 1,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 376.0, 329.0, 934.0, 749.0 ],
+		"rect" : [ 1504.0, 511.0, 934.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -54,7 +54,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 377.0, 308.0, 372.0, 336.0 ],
+					"patching_rect" : [ 524.0, 374.0, 372.0, 336.0 ],
 					"prototypename" : "pixl",
 					"varname" : "viewr",
 					"viewvisibility" : 1
@@ -130,7 +130,7 @@
 					"numoutlets" : 5,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 25.0, 308.0, 318.0, 232.0 ],
+					"patching_rect" : [ 195.14285714285711, 374.0, 318.0, 232.0 ],
 					"prototypename" : "pixl",
 					"varname" : "patchroutr",
 					"viewvisibility" : 1
@@ -364,7 +364,7 @@
 , 			{
 				"name" : "jit.gl.textureset.js",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/javascript/render",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/javascript/render",
+				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/javascript/render",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
@@ -491,7 +491,7 @@
 , 			{
 				"name" : "xfade.genjit",
 				"bootpath" : "~/Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
-				"patcherrelativepath" : "../../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
+				"patcherrelativepath" : "../../../Library/Application Support/Cycling '74/Max 8/Examples/jitter-examples/gen",
 				"type" : "gJIT",
 				"implicit" : 1
 			}

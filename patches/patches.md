@@ -1,0 +1,36 @@
+# Different patches saved in compressed format to copy and past into MAX
+
+## Project using videocam, audio and Vizzie
+
+```
+<pre><code>
+----------begin_max5_patcher----------
+1158.3oc6XsrjhaCEcM7U3x8VBA4W.YapTo5sIolEyTSQIaKLpQH4HICz8TS
+91idXChfMs6.LKloWzsw508w4nitxeY3.+T1djv26W79j2fAeY3fAllzMLn9
+8A9af6yHPgYX9RVQAA4Ox1EqRRPR4ykH6Z3ioReuOW2aITlsBSKVvQYR6.hm
+CFOYjWXxD8ifnl+eXNzpMXpZMMVCT2HN2XaV5S+DHz+vpygaPRDeAhBSIFOX
+xwUw5Z1kQ23WGNT+uQ8LNSMNOh2XssPNUYt59F+GnLFO+XuXztsXANESvxmc
+cc1xkBTcvah4INAKgksFkmygEhLNiPbCgLBNasbEmUUrxscavt57IX6X64cX
+sh.+xIonzhMr7SaQEQp.1cI2K4PKzA5FSmkLUGXQyrP6z.8C.HwEUOO0MVkt
+UKlea3dv439T+Vg1I2dn8OUTJD6cjUEVISibPVPzrKir1L2aDXiuc.aIA9LA
+Kj+yA4INt.SgDIZSIyDqAZjpCsKAtPMV+Qs+K8e43LIlQg7mOJx82UvFlgeJ
+TfyNnOgU4SEUWmNUSxM6uTgircEDVpiuM4U2gEDY3YfXyi4ANvfwxxJpZd5o
+DE0rZR7FjPxQp0rlpdXNKY7MPprcWTQRKWgvEqLtfQ09BBzMDtSy.MoeBhVH
+W4rSQ4UYqEGygNzgn2t7dbcq4PIrlcTSOrgwgy2b5P0ELUvHURjJea7MeAKC
+CIig3k09fIIgUdeCGuyQrFSsg.rJGyzs3Lf5nqJNJbB.DOE3zGgwJcRjFWlQ
+kHpbgPBknl3w0yclUSSlMJ1e384gGa41pL9HsrR9ctvXWpBGBf9obNMYtyN1
+3vKKbZRrWR2bx4aTB8ua05.oTlh7UqH3+vCdePA1dLt2FFEKUO2hyQLOr1s8
+d3g1nKZ5wgErjyjLcN8P2k38juKXRfNYRscdp83z.SERAg1ZfmLqMVw1WFaR
+gWhUzV4wyue0IcNsvVJm2Gd7ie7weqlTzNcf+CQ8xs.4gf.2hiAw1Jol2Aly
+e8hiCOG0CtcfNEsSshsti9kwqgDD9HJJUZgcz0YxnOgkKJHKzSohit3cDirU
+cFDXJ2LAXeoq6HF2xlfukRi+JmIDKg4HuTjbGBQ8j6X18BhN1LrWM7er0FuF
+5QncqTfslX.vdojvIcrixjrei6mBi9Vxf9qUnSkP02iAw+YcUdHdGbH8XdmC
+cINj9Na8PlIJwHLWe213tNL1juuDMZ54znj1YQA2EVzuygod6PoYvM0zH086
+Z3UWpRsB0DSemJ8+UNxVneCKJ4xrHat9M9ER.Sec0Hi07IX5+8q4Z7Xc6mRt
+DrJdVSzVyUc9z.4HgTcy8F90mNbtpdLsRe6qch5gcldxXNhVWsgA8vvf6gge
+sHNt8HFb2i331i3qyvg8IjCtGfburr9NR29rMXZOLci+ccVJrmoWv0Zn9FQm
+ZHqVDrrbKhKpGswFpizdhYR0yFYdESsulXdkizGsXGuQq1GxUpsRkTqQDVW4
+bhsxLyGbjSqv03lJ5FpOJQcboVtUTByp+3JpSUG90g+6UXgnc
+-----------end_max5_patcher-----------
+</code></pre>
+```
