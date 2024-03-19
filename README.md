@@ -259,8 +259,21 @@ dXfi8VUUkEoSoE7tx5ZqaFn50oKVlmQrFhokX6ma+avKh9Yr
 
 ## Session 3: Under the Hood - Jitter
 
-**Under construction**
-In this section you will get to know Jitter matrices. They are the foundation for working with video files. They allow to save, resize, select, manipulate and mix media content. But matrices can also be used to draw and write "on screen", similar on what you can do with Turtle graphics in Python. The section will cover the basics and show simple examples for each application mentioned before.
+In this session I encourage you to try out the examples of previous sessions, have a look at the documentation and get a better grip on Jitter, MSP and MAX.
+
+The best way to explore is to check out the tutorials inside MAX. You can access them by first clicking on the `File Browser` icon on the left side of the MAX window and then click on the `74` item.
+
+![How to access MAX tutorials](media/2024-03-19_11-42-04.png)
+
+There are tutorials for may different topics covering Jitter. There is a basic series to give an overview called *Video and Graphic*, the *Tutorial* series covers more details.
+
+![Screenshot of available tutorials](media/2024-03-19_11-45-36.png)
+
+Each tutorial comes with patches to try out the features explained. After opening a tutorial, click on the `Open Tutorial` button on the top left, this will open the patch.
+
+![Open Tutorial](media/2024-03-19_11-53-59.png)
+
+The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter?page=9#:~:text=The%204%20planes%20of%20the,numbers%20from%200%20to%20255.) is a further source of easy and more complex sample patches that you can try out to better understand how Jitter works.
 
 
 ## Session 4: Some things to try out - Bring MAX, MSP and Jitter together
