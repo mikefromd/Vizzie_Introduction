@@ -117,14 +117,65 @@ The image shows (red arrow) what you see with an activated `Signal Probe` when y
 
 ### 2.2. [Video to Data and Data to Video](https://youtu.be/sbfpLhPTbVI)
 
-Launch the patch “221205_Vid31”.
+<details>
+  <summary>Compressed Copy</summary>
+
+<pre><code>
+----------begin_max5_patcher----------
+1759.3oc6as0aaaCE94jeEDJOrKv0UjT27dqsXqH.qCEoaYnsnHfVlIlsxjF
+TzIwon+2GuHEqjHYK2H4ZfkGhEHEkN76b+bnxWO7.uwhqo4dfeC7QvAG70CO
+3.6TlINnX7AdyHWmlQxsKyKULaFkq7F3tmhdsxN+aXWCVJV.DWwAohLwBY4R
+lSToSY7KNSRSUNREgQC8G.vAwlKH+Q1K5eAep3g3KlIVnxnJKU8Kl8bAWkyt
+gZlC4OrbZ1D6VPL9yOKHwa0afwKeAPybe6vCM+LnkHU+BFSWGJRhhL66PGXB
+8sf.0HHPEy5lRsbN08Z77F.7FS3W3c6CVEPgq1ARxLphJOixIiynUYLOdvRu
+RSsGHU+U.JLb353AP+J7ffMwCfMwCNOSPT0y.hpUhh5GIZhEFIi5SIJdOWhh
+pvC5EIZvNThFaAPPPTeJQQ64RzfJ7fdQh52YRzlhubxqeI3TR1BZN3JlZJve
+3PMrKWVFiSSEK3ppBw5XEgACCM7.ngIjX+Ei2XbmJPEi5r.LMBUZNUAdWFaB
+UlCH7If2dxwu4jMKgCiwlKvB0b+sAWvtKv43EJkfu1sahQJDNJztOCJ+caUH
+azfD5uSLH0FD52wZ.ZL1FOo.nco2myExYDKUhpwbbmf9wV.ux6KgyEJhhoE8
+laezQfSYzq.BIXlfyT5qWp0nE.Fe9BE3niJetKIRtdWZenK0Og7ivOcK.jBk
+vvHtcEyYWmc6SpW8krb1XVFSs7NpJmet1Fxw8rb8p1BYhzuPmLQRtHOUJxxp
+xURyXoeQMUJVbwzpy63eSe3C3twkO7FNpTlsZ4riuXlXBs5VcrPpsyqtlZTj
+BzV1wZSFHzZgivEV3IazDeEq8lgVt6PsPTSAuZrZh6cWauMirTiLv+Zbg+Ja
+YB4fmAdAmjsLmZ808tkb0T5ML8vSs5KtkA9YcDfeoV+8Aqw.rfeAc+ZuLJpC
+py.F167p2qqlJkvAyH7Ejrrk.K9.ZlCnXKCDmaG9h+5E+46+vI.kvNzscL27
+NwMtCOKrYdFDacHGgsbKnKTYbvVELo+CRZSFAne8Z0GiCBvers4BDGTTyhCf
+nsOWfjdGktj..Zho21C.yWjkAzvVvo5hrkb8szx7YjunE5JvTgjciVykjssr
+h.+vJrBjynY63Ecm8vlipF3hphw6znpX7dRREA8UQpqG9v8K328UzsV3iF8i
+rFu7TRFE3CfnXcpL.35J2KJ.Ww7XT72a4d0lYMp9bDh9gB0BSgtFpQ6iP0o1
+20PMryfZtMh0Z.BdTUYFBG+8V8W8HY2T6SaQYXQh5EnLtqPIduBkEJkknLpq
+PIZ+HhShq78DX7NMhCbOIeiDW8.6b3uujugqCx6Z3OZOoGNulpqxfnz0lCx0
+LlL5yLmtWYubpuKNykrYxmZgy8ziRrJPQgtxpQ1QvflC7EzjlzmYpytH6LSZ
+DKjTid0s+s5UUosOVwQys8AWar+vdQa5UB9kToBbx.vqGXa2yKKzjzU.OWWV
+KWkaJo8zi+vGN92ASHJRC5XDSKit4Isr6GQ1UHu63Xs8GrnogMnjgWm6plUo
+J39qoWhQ6Pspuy9L+jty8zcRRp3gpm5w7HucWrq+fnA8y+miASX4yyHKA5Ht
+sv0x4jIx++I8QibEjUbzn1b9fidT4xWUuvvTWiZwNTq3US0YgYxmw5l3mxAi
+krKlp3z77mmJ3JIIW87bhN1p8wZPIYrLUj+jKjZC+fbULTF9A6u8JQ2KGmZU
+obhf0jXS8c0HtWzp96ozRWKtvOFGNZuOYBwbproDk0q4Icn50gBcegfNUnvj
+sufqZRSt9ziMBgl0hh1nRj8sZOqk68kTZAmY96pYkKVHSK2kkehafU3aBMWw
+32pc8wUeHflEUq1aaoj4LL1Lkt61YkL6QQZyW80lIMtK.IrMTJnO.o4TB1Lo
+86E9qeaHMpC3usQaEG1GXrMTFVOggONlaafb8DNbmPX3CIbvNgvnGRXbuSXT
+vOJgLB2K1tsgxn5oL5w4qLrMlTw2YQyXSlKXbUQzt.6mTINw0xg3fgIw0LNv
+O1crO3gnxgcMarcfIZyfIPm8g4xpAcstVqBD2f8Er+iN1fKkGIkuyKsdBOpK
+h+2FsfthP3MQHbGQHzlHDrCHTqxeA2GNeQwsgxcAyD0p7W5DtYa7Gg5BMQTq
+hfD0ETpMVWkByGGkPsgRcQUQvVk5bWPn1l4Lto3SXe6mNe.zch6wireVv2aH
+x8uvCD65nGzdZkOnfUx74WRk4ET2tm8lQ9rvZLmLvNjwcCsGPomjZ5.ga81R
+58HRc06Jco61lznqX95H2GfgmozeIeAqvyflacnoiCj7bSs24yIoE8QSbs2g
+e6v+CnODTpA
+-----------end_max5_patcher-----------
+</code></pre>
+
+</details>
 
 #### What to do?
 
-With no patch cord between `ANALYSR` and `PRIMR`, change the three sliders and see what happens.
+This patch contains two parts.
+
+First, change the three sliders and see what happens. Try to create different colours and see how the values in the three boxes displaying the RGB values change, depending on your choice.
+
 Next, reset the sliders to zero by clicking on the button and connect one of the three outlets of `ANALYSR` to one of the three inlets of `PRIMR`. Pay attention to the labels of both modules when patching. Predict what will happen when you are choosing different scenarios to patch the two modules.
 
-![Analyse and Synthesize Colours](media/221205_Vid3_AnaSynth.png)
+![Analyse and Synthesize Colours](media/2024-03-20_10-39-06.png)
 
 The `slider` and `scale` objects at the right are used to select colour content. While the `slider` provides integers in the range of 0 to 127 (typical for MAX objects), the inlets of the PRIMR object require a signal in the range between 0.0 and 1.0. The `scale` object is doing the transformation.
 
@@ -271,7 +322,7 @@ Here, we have
 - char is a data type using whole numbers in the range from 0 to 255 (8bit, 1 Byte)
 - 320 x 240 is the number of pixels horizontally x vertically being used.
 
-The attached basic patch contains a colour random generator and a black and white pixel controller that allow you to explore Jitter. You can change each element of the matrix by addressing it with its index, (0,0) is the first element on the left of the first line. You need to *bang* the patch for changes to become effective. The patch is also available as Compressed Copy below.
+The attached basic patch contains a colour random generator and a black and white pixel controller that allow you to explore Jitter. You can change each element of the matrix by addressing it with its index, (0,0) is the first element on the left of the first line. You need to *bang* the patch for changes to become effective. It is important to  The patch is also available as Compressed Copy below.
 
 
 ![Two basic patches with Jitter](media/2024-03-19_13-02-21.png)
