@@ -169,7 +169,7 @@ e6v+CnODTpA
 
 #### What to do?
 
-This patch contains two parts.
+Copy and past the Compressed Copy File to a new patcher. This patch contains two parts.
 
 First, change the three sliders and see what happens. Try to create different colours and see how the values in the three boxes displaying the RGB values change, depending on your choice.
 
@@ -307,6 +307,7 @@ dXfi8VUUkEoSoE7tx5ZqaFn50oKVlmQrFhokX6ma+avKh9Yr
 </code></pre>
 
 </details>
+
 
 ## Session 3: Under the Hood - Jitter
 
