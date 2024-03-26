@@ -383,6 +383,25 @@ The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter
 
 ![Chromakeying - Where to find?](media/2024-03-26_09-23-47.jpg)
 
+Chromakeying allows to set a delimited object coming from one video source to be set in front of another video source. In order for the algorithm to work, the object has be be placed in front of a uniform green or blue background. These two colours are preferential as the object (in this example the profile of a head) do not contain these colours, therefore the Chromakeying object can just identify all pixels of this colour and replace them with the pixel from the second video source having the same coordinates.
+
+#### How to use the patch?
+
+![Chromakeying patch](media/2024-03-26_10-10-00.png)
+
+We use two videos, they are loaded by clicking on the messages `read oh.mov` and `read traffiic.mov`. The `Start/Stop` toggle starts the patch, the `start` and `stop` messages allow you to pause and resume the videos.
+
+The patch also allows to play the audio tracks of the media files using the `jit.movie` object, the volume is adjusted by the attribute *vol*, it having a non-zero value will play the sound. If you do not hear the audio, check in `Options/Audio Status`.
+
+The `loadbang` object at the right will initialize the available attributes with suitable values. If you have messed up the attribute values, you can always come back here to find the original settings.
+
+There are four attributes that determine the quality of the keying: `tol`, `fade`, `minkey`, and `maxkey`.
+
+Before you start using these attributes, set the key colour by clicking on it using the left window (i.e. the blue background).
+
+`tol` determines a variance around the chosen colour to be used for the keying in %, expressed as a floatnum in the range of 0.0 to 1.0. Changing the value of the *fade* attribute will allow you to determine what happens at the border between your chosen image (i.e. face) and the background image (video 2). The `maxkey` attribute sets the strength of the righthand matrix in the output, while the `minkey` attribute sets the strength of the lefthand matrix. The values have a range between 0.0 and 1.0..
+
+For further details, please check the tutorial about [Chromakeying](https://docs.cycling74.com/max8/tutorials/jitterchapter10) on the MAX Documentation gives you more details on the patch.
 
 
 ## Some Background Knowledge
