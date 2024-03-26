@@ -412,6 +412,8 @@ A good approach to learn about this object is opening the `Search Bar` at the ri
 
 ![Jitter jit.lcd object reference](media/2024-03-26_11-19-51.png)
 
+Please note that the help patch (andi its copy) also have *Tabs* at the top, the *Tab* `more shapes` contains interesting messages.
+
 Drawing takes place by sending messages to the `jit.lcd` object. You get the full list of available messages by unlocking your patch, clicking on the `jit.lcd` object and then clicking on the right side of the MAX window on rhe `Reference` icon (red circled).
 
 ![jit.lcd messages](media/2024-03-26_11-31-35.png)
@@ -432,7 +434,7 @@ Some messages (`frgb`, `brgb`, `pensize`, ...) set default value that will be us
 
 #### ToDo (two choices):
 
-- Draw a Mondrian inspired image or
+##### Draw a Mondrian inspired image or
 
 ![Mondrian](media/piet-mondrian-composition-c-noiii-with-red-yellow-and-blue-1935-002c09.jpg)
 
@@ -440,11 +442,15 @@ The below code may help you to change arguments quicker, it takes the values of 
 
 ![`pack` object used to fill list](media/2024-03-26_12-07-12.png)
 
-- Draw a smiley.
+##### Draw a smiley.
+
+Beside the basic shapes (`frameoval` and `paintoval`) you also need a message to draw the mouth, have a look for `framearc`, you find an example in the help section under the *Tab* `more shapes` The message also includes two arguments that control the arc. The first argument is the angle to the starting position of the arc, 0 degree is at 12 o'clock, angles increase clockwise. The second argument is the length of the arc section in degree.
 
 #### Further details:
 
 - [MAX Documentation on jit.lcd](https://docs.cycling74.com/max8/refpages/jit.lcd)
+- [Soundand.Design - Jitter basic lines shapes typography](https://soundand.design/jitter-2-basic-lines-shapes-typography-picts-5f43f89e8b13)
+- [Jit.lcd - Max MSP Tutorial - Intro to Jitter by Andrew Robinson, YouTube](https://youtu.be/98FpSRsWvFE?feature=shared)
 
 ## Some Background Knowledge
 
