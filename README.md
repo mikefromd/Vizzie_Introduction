@@ -379,7 +379,7 @@ The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter
 
 ## Session 4: Some things to try out - Bring MAX, MSP and Jitter together
 
-*** Chromakeying
+### 4.1. Chromakeying
 
 ![Chromakeying - Where to find?](media/2024-03-26_09-23-47.jpg)
 
@@ -403,6 +403,48 @@ Before you start using these attributes, set the key colour by clicking on it us
 
 For further details, please check the tutorial about [Chromakeying](https://docs.cycling74.com/max8/tutorials/jitterchapter10) on the MAX Documentation gives you more details on the patch.
 
+
+### 4.2. Drawing 2D objects with jit.lcd
+
+The `jit.lcd` object allows to make simple 2D drawings, similar to what the turtle graphics library was doing in Python.
+
+A good approach to learn about this object is opening the `Search Bar` at the right side of the MAX window and then click on *jit.lcd* to open the help file. Next, save that patch with `Save As ...` at a location of your choice with a name of your choice.
+
+![Jitter jit.lcd object reference](media/2024-03-26_11-19-51.png)
+
+Drawing takes place by sending messages to the `jit.lcd` object. You get the full list of available messages by unlocking your patch, clicking on the `jit.lcd` object and then clicking on the right side of the MAX window on rhe `Reference` icon (red circled).
+
+![jit.lcd messages](media/2024-03-26_11-31-35.png)
+
+The messages normally contain either or both of location in (x,y) format and colour (RGB coded, range 0..255). Please bear in mind that the coordinate system starts with (0,0) at the top left corner, x values get bigger towards the right side of the panel, y values get bigger towards the bottom of the panel.
+
+As an example, look at 
+
+![Example message for jit.lcd](media/2024-03-26_11-41-26.png)
+
+`framerect 40 80 80 120` draws a rectangle with the top left corner at coordinates (40, 80) and lower right coordinate at (80, 120). All this is and more is explained in the documentation.
+
+![Documentation message `framerect`](media/2024-03-26_11-49-19.png)
+
+Some objects (i.e. `paintrect 60 60 190 190 204 0 0` contain three more arguments, they represent the colour of the object, RGB coded).
+
+Some messages (`frgb`, `brgb`, `pensize`, ...) set default value that will be used until they are changed.
+
+#### ToDo (two choices):
+
+- Draw a Mondrian inspired image or
+
+![Mondrian](media/piet-mondrian-composition-c-noiii-with-red-yellow-and-blue-1935-002c09.jpg)
+
+The below code may help you to change arguments quicker, it takes the values of four integer boxes, packs them into a list. When you change the value of the leftmost box, the values will be send to the jit.lcd object and the image will be updated with the new values. You can easily extend it to hold 7 values by adding more *0* values.
+
+![`pack` object used to fill list](media/2024-03-26_12-07-12.png)
+
+- Draw a smiley.
+
+#### Further details:
+
+- [MAX Documentation on jit.lcd](https://docs.cycling74.com/max8/refpages/jit.lcd)
 
 ## Some Background Knowledge
 
