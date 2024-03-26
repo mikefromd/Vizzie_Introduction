@@ -9,9 +9,14 @@ Happy Patching!
 
 ## Content:
 
-### [SEssion 1: A Brief Introduction to Vizzie](#session-1)
+### [Session 1: A Brief Introduction to Vizzie](#session-1)
 
 ### [Session 2: Video Effects, Remixes with BEAP, Recording, and Even More Vizzie](#session-2)
+
+### [Session 3: Under the Hood - Jitter](#session-1)
+
+### [Session 4: Some things to try out - Bring MAX, MSP and Jitter together](#session-4)
+
 
 ##### Session 1 
 
@@ -198,7 +203,7 @@ The MAX Documentation has a [Tutorial](https://docs.cycling74.com/max8/tutorials
 **Attention:** When you have connected the ANALYSR module to the PRIMR, it will immediately overwrite the settings of the sliders.
 
 
-## 2.3. [Recombinant Patching]( https://cycling74.com/tutorials/vizzie-visions-episode-4-recombinant-patching-made-easy)
+### 2.3. [Recombinant Patching]( https://cycling74.com/tutorials/vizzie-visions-episode-4-recombinant-patching-made-easy)
 
 Some Vizzie effects are only available as Abstractions (separate patches), they look like normal objects and are not shown on the Vizzie menu. They are implemented as ordinary objects, and are accessible by creating an object placeholder with `n` and then entering their name. You recognize them by the prefix `vz.`. Each of these effects has a Control Panel that can be opened by double-clicking on the object.
 
@@ -319,7 +324,9 @@ dXfi8VUUkEoSoE7tx5ZqaFn50oKVlmQrFhokX6ma+avKh9Yr
 </details>
 
 
-## Session 3: Under the Hood - Jitter
+##### Session 3
+
+## Under the Hood - Jitter
 
 ### Basic concept of Jitter
 
@@ -387,7 +394,9 @@ Each tutorial comes with patches to try out the features explained. After openin
 The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter?page=9#:~:text=The%204%20planes%20of%20the,numbers%20from%200%20to%20255.) is a further source of easy and more complex sample patches that you can try out to better understand how Jitter works.
 
 
-## Session 4: Some things to try out - Bring MAX, MSP and Jitter together
+##### Session 4
+
+## Some things to try out - Bring MAX, MSP and Jitter together
 
 ### 4.1. Chromakeying
 
