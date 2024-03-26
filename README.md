@@ -381,7 +381,7 @@ The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter
 
 *** Chromakeying
 
-![Chromakeying - Where to find?](media/2024-03-26_09-23-47.png)
+![Chromakeying - Where to find?](media/2024-03-26_09-23-47.jpg)
 
 
 
