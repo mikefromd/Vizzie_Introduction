@@ -379,8 +379,10 @@ The [MAX Cookbook](https://music.arts.uci.edu/dobrian/maxcookbook/chapter/jitter
 
 ## Session 4: Some things to try out - Bring MAX, MSP and Jitter together
 
-**Under construction**
-Here will be posted several ideas on what you can do with all three basic components of MAX together. Some introduction and starter patches will be provided to start with, then you can remix everything. Recording encouraged!
+*** Chromakeying
+
+![Chromakeying - Where to find?](media/2024-03-26_09-23-47.png)
+
 
 
 ## Some Background Knowledge
